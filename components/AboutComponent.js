@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import { baseUrl } from '../shared/baseUrl';
 import Loading from './LoadingComponent';
 
+
+
 const mapStateToProps = state => {
     return {
         partners: state.partners
