@@ -101,7 +101,6 @@ class CampsiteInfo extends Component {
 
     handleComment(campsiteID) {
         this.props.postComment(campsiteID, this.state.rating, this.state.author, this.state.text);
-        // console.log(JSON.stringify(this.state));
         this.toggleModal();
     }
 
